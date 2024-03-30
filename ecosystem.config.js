@@ -6,8 +6,7 @@
 module.exports = {
     apps: [{
         name: "fe",
-        script: "./node_modules/.bin/next",
-        args: "start . -p 3000",
+        script: "./start.js",
         instances: 2,
         exec_mode: "cluster",
         autorestart: true,
